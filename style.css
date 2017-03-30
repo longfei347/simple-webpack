@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* 重定义Html元素 */
+
+html {
+	min-height: 101%;
+}
+html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input {
+	padding: 0;
+	margin: 0;
+}
+ul, li, ol {
+	list-style: none outside none;
+}
+fieldset, img {
+	border: medium none;
+	vertical-align: middle;
+}
+caption, th {
+	text-align: left;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+	background: none repeat scroll 0 0 #FFF;
+	color: #666;
+	font: 12px/1 "Microsoft YaHei", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Helvetica, Arial, sans-serif;
+}
+input, select, textarea {
+	vertical-align: middle;
+}
+a {
+	color: #666;
+	outline: medium none;
+	text-decoration: none;
+	-webkit-transition: background .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+	-moz-transition: background .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+	-ms-transition: background .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+	-o-transition: background .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+	transition: background .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+}
+a:hover {
+	text-decoration: underline;
+}
+i, cite, em {
+	font-style: normal;
+}
+.clearfix:after, .clearfix:before {
+	content: "";
+	display: table;
+	height: 0px;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	*zoom: 1;
+}
+time {
+	color: #777;
+}
+
+/* 为旧版本浏览器格式化Html5元素 */
+
+article, aside, dialog, footer, header, section, footer, nav, figure, menu {
+	display: block;
+}
+
+/* 文字排版*/
+
+.f12 {
+	font-size: 12px;
+}
+.f13 {
+	font-size: 13px;
+}
+.f14 {
+	font-size: 14px;
+}
+.f16 {
+	font-size: 16px;
+}
+.f20 {
+	font-size: 20px;
+}
+.f30 {
+	font-size: 30px;
+}
+.fb {
+	font-weight: bold;
+}
+.fn {
+	font-weight: normal;
+}
+.t2 {
+	text-indent: 2em;
+}
+.lh150 {
+	line-height: 150%
+}
+.lh180 {
+	line-height: 180%
+}
+.lh200 {
+	line-height: 200%
+}
+.unl {
+	text-decoration: underline;
+}
+.no_unl {
+	text-decoration: none;
+}
+.noborder {
+	border-style: none;
+	border-width: 0;
+}
+.f333, .key-color {
+	color: #333;
+}
+.f666, .maim-color {
+	color: #666;
+}
+.f999, .auxiliary-color {
+	color: #999;
+}
+.f60, .orange-color {
+	color: #f60;
+}
+.border-color {
+	border-color: #EEE;
+}
+.split-color {
+	border-left: 1px solid #EEE;
+}
+
+/* 定位 */
+
+.tl {
+	text-align: left !important;
+}
+.tc {
+	text-align: center !important;
+}
+.tr, .text-right {
+	text-align: right !important;
+}
+.bc {
+	margin-right: auto;
+	margin-left: auto;
+}
+.fl {
+	float: left;
+	display: inline-block;
+}
+.fr {
+	float: right;
+	display: inline-block;
+}
+.cb {
+	clear: both;
+}
+.cl {
+	clear: left;
+}
+.cr {
+	clear: right;
+}
+.vm {
+	vertical-align: middle;
+}
+.vt {
+	vertical-align: top;
+}
+.pr {
+	position: relative;
+}
+.pa {
+	position: absolute;
+}
+.abs-right {
+	position: absolute;
+	right: 0;
+}
+.zoom {
+	zoom: 1
+}
+.none, .hide {
+	display: none;
+}
+.invisible {
+	visibility: hidden
+}
+.db {
+	display: block;
+}
+.din {
+	display: inline-block;
+}
+.clear {
+	clear: both;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+}
